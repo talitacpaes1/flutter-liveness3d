@@ -15,14 +15,9 @@ samples, guidance on mobile development, and a full API reference.
 
 ## 1. Sobre o Repositório
 
-Este repositório é responsável pela biblioteca NPM do Liveness Oiti, com ele é possível instalar e usar as funções de FaceCaptcha e de Documentoscopia da Oititec disponíveis para aplicativos híbridos em React Native.
+Este repositório é responsável pela biblioteca Pub.dev do Liveness Oiti. Com ele é possível instalar e usar as funções de FaceCaptcha e de Documentoscopia da Oititec disponíveis para aplicativos híbridos em Flutter.
 
 ## 2. Biblioteca
-
-###  NPM
-O NPM (node package manager) é o gerenciador de pacotes do node.js (runtime de javascript).
-
-Em primeiro lugar, com o NPM você pode gerenciar dependências do seu projeto, acessar o repositório do NPM e ter acesso a inúmeras bibliotecas e frameworks JavaScript, permite a instalação/desinstalação dos mesmos assim como a criação de seus próprios módulos públicos ou privados.
 
 ### PUB.dev
 
@@ -38,13 +33,13 @@ As instruções de uso, integração, implementação e customização do **Live
 Usando NPM:
 
 ```sh
-npm install @oiti/rn-liveness3d
+npm install @oiti/flutter-liveness3d
 ```
 
 ou usando YARN
 
 ```sh
-yarn add @oiti/rn-liveness3d
+yarn add @oiti/flutter-liveness3d
 ```
 
 ### 3.2 iOS Configuração
@@ -57,17 +52,17 @@ pod 'FaceCaptcha', '~> 4.0.1', :source => 'https://github.com/oititec/liveness-i
 
 ## 4. Uso no Javascript (PASSO 2)
 
-Primeiro devemos chamar a função desejada da biblioteca '@oiti/rn-liveness3d'
+Primeiro devemos chamar a função desejada da biblioteca '@oiti/flutter-liveness3d'
 
 ```js
-import { FUNÇÕES DESEJADAS } from '@oiti/rn-liveness3d';
+import { FUNÇÕES DESEJADAS } from '@oiti/flutter-liveness3d';
 ```
 
 ### 4.1 Funções
 
 #### Diagrama E2E Liveness2d
 
-![Funções](Documentation/assets/E2Eliveness2d.png)
+![Funções](Documentation/assets/E2Eliveness3d.png)
 
 #### Diagrama E2E Documentoscopia
 
